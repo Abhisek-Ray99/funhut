@@ -1,64 +1,26 @@
 import { React, Fragment } from 'react'
 import '../../../../App.css'
-import { Popover, Transition } from '@headlessui/react'
+import { Popover } from '@headlessui/react'
 import {
-    BookmarkAltIcon,
-    CalendarIcon,
     UsersIcon,
-    PhoneIcon,
-    PlayIcon,
     SpeakerphoneIcon,
-    ShieldCheckIcon,
-    SupportIcon,
-    ViewGridIcon,
-    XIcon,
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+import Fun from '../../../../img/NASA.gif'
 
-
-const callsToAction = [
-    { name: 'Watch Demo', href: '#', icon: PlayIcon },
-    { name: 'Contact Sales', href: '#', icon: PhoneIcon },
-]
-const resources = [
-    {
-        name: 'Help Center',
-        description: 'Get all of your questions answered in our forums or contact support.',
-        href: '#',
-        icon: SupportIcon,
-    },
-    {
-        name: 'Guides',
-        description: 'Learn how to maximize our platform to get the most out of it.',
-        href: '#',
-        icon: BookmarkAltIcon,
-    },
-    {
-        name: 'Events',
-        description: 'See what meet-ups and other events we might be planning near you.',
-        href: '#',
-        icon: CalendarIcon,
-    },
-    { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
-]
-
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
 
 export default function Example() {
     return (
         <Popover className="relative z-10 " style={{ backgroundColor: '#ffec06' }}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-                    <div className="flex justify-start lg:w-0 lg:flex-1">
+                    <div className="flex justify-start lg:w-0 lg:flex-1 ">
                         <a href="#" className="flex space-x-4">
                             <img
-                                className="h-8 w-auto sm:h-10"
-                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                className="w-20 h-20 ml-0 -mr-8"
+                                src={Fun}
                                 alt=""
                             />
-                            <span className="text-3xl text-indigo-600 font-extrabold">Workflow</span>
+                            <span className="text-4xl text-indigo-600 font-extrabold p-5">Funhut</span>
                         </a>
                     </div>
 
