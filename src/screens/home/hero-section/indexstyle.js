@@ -4,7 +4,7 @@ export const Div1 = styled.div`
     width: 100%;
     height: 70%;
     position: relative;
-    z-index: 10;
+    z-index: 2;
     margin-bottom: -15em;
     padding-top: 25em;
     padding-bottom: 5em;
