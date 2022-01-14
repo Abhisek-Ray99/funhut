@@ -12,13 +12,15 @@ import Hero4 from '../../../img/03.r_d_Menu_R_D_03x2_bt9pax.png'
 import Hero5 from '../../../img/01.products_Menu_Products_03x2_iog5ew.png'
 import Hero6 from '../../../img/03.grapes_Home_Grapes_04x2_dxbzat.png'
 
+import '../../../styles/font.css'
+
 const Hero = () => {
 
     return (
         <ParallaxProvider>
             <Div1>
                 <MainImg src={HeroImg} alt="hero" />
-                <Parallax speed={6} className="hero-heading">
+                <Parallax speed={6} className="hero-heading hero-font">
                     FunHut
                 </Parallax>
                 {/* <ImgFlex>

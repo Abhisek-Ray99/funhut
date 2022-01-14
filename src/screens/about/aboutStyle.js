@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 export const Div1 = styled.div`
     position: relative;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    background-color: #ffec06;
     padding-top: 140px;
     padding-bottom: 30px;
     h1{

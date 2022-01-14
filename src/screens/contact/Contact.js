@@ -1,10 +1,11 @@
 import React from 'react'
+import { ContactDiv } from './contactStyle'
 
 const Contact = () => {
     return (
-        <div>
+        <ContactDiv>
             Contact
-        </div>
+        </ContactDiv>
     )
 }
 

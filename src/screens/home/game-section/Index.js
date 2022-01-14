@@ -3,8 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import GamePreview from '../../../components/GCard'
+import { Redirect } from "react-router-dom";
 
-import { Div1, Div2, G1} from './indexstyle'
+import { Div1, Div2, G1 } from './indexstyle'
 
 const Gamesec = () => {
 
@@ -23,7 +24,6 @@ const Gamesec = () => {
                 <Slider {...settings}>
                     <G1>
                         <GamePreview>
-                            <p>1</p>
                         </GamePreview>
                     </G1>
                     <G1>
@@ -53,7 +53,7 @@ const Gamesec = () => {
                     </G1>
                 </Slider>
             </Div2>
-        </Div1>
+        </Div1 >
 
 
     )

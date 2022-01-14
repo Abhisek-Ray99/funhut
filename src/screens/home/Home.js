@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Hero from './hero-section/Index'
 import Gamesec from './game-section/Index'
 
